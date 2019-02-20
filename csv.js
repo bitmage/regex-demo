@@ -20,7 +20,7 @@ const main = async () => {
   await client.connect()
 
   // parse the CSV and run your step function
-  Papa.parse(bigFile, {
+  Papa.parse(csv_path, {
     worker: true,
     step: async function(results) {
       // start with this so you can verify that you're reading from the CSV
