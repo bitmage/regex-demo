@@ -13,6 +13,8 @@
   "author": "q@bitmage.net",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "papaparse": "^4.6.3",
+    "pg": "^7.8.0"
   }
 }
